@@ -11,7 +11,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class XRAlyxGrabInteractable : XRGrabInteractable
 {
     public float velocityThreshold = 2;
-    public float jumpAngleInDegree = 80;
+    public float jumpAngleInDegree = 60;
     [SerializeField]
     private XRRayInteractor rayInteractor;
     private Vector3 previousPos;
