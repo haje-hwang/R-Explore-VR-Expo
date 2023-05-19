@@ -58,7 +58,6 @@ public class XRAlyxGrabInteractable : XRGrabInteractable
                 canJump = false;
             }
         }
-
     }
 
     public Vector3 ComputeVelocity()
