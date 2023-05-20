@@ -12,21 +12,25 @@ public class SliceScript : MonoBehaviour
     public LayerMask sliceableLayer;
     public Material crossSectionMaterial;
     public float cutForce = 2000;
-
-    // Start is called before the first frame update
-    void Start()
+    private SaberAudio saberAudio;
+    private bool isSaberOn = true;
+    private void Awake()
     {
-        
+        saberAudio = GetComponent<SaberAudio>();
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        bool hasHit = Physics.Linecast(startSlicePoint.position, endSlicePoint.position, out RaycastHit hit, sliceableLayer);
-        if(hasHit)
+        if(isSaberOn)
         {
-            GameObject target = hit.transform.gameObject;
-            Slice(target);
+            bool hasHit = Physics.Linecast(startSlicePoint.position, endSlicePoint.position, out RaycastHit hit, sliceableLayer);
+            if(hasHit)
+            {
+                saberAudio.SaberSlice();
+                GameObject target = hit.transform.gameObject;
+                Slice(target);
+            }
         }
     }
 
@@ -56,6 +60,11 @@ public class SliceScript : MonoBehaviour
         collider.convex = true;
         XRAlyxGrabInteractable XRgrab = slicedObject.AddComponent<XRAlyxGrabInteractable>();
         rb.AddExplosionForce(cutForce, slicedObject.transform.position, 1);
-        
+        slicedObject.AddComponent<SlicedObjectScript>();
+    }
+
+    public void Set_isSaberOn(bool b)
+    {
+        isSaberOn = b;
     }
 }
