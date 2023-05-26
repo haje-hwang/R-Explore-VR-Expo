@@ -575,7 +575,7 @@ PrefabInstance:
     - target: {fileID: 781630661673262082, guid: c24a7635b5761984d81cf6c4aac26e0d,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 294.09998
+      value: 353.2
       objectReference: {fileID: 0}
     - target: {fileID: 781630661673262082, guid: c24a7635b5761984d81cf6c4aac26e0d,
         type: 3}
@@ -620,12 +620,12 @@ PrefabInstance:
     - target: {fileID: 781630661673262082, guid: c24a7635b5761984d81cf6c4aac26e0d,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 2.2
       objectReference: {fileID: 0}
     - target: {fileID: 781630661673262082, guid: c24a7635b5761984d81cf6c4aac26e0d,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 100
+      value: 107.9
       objectReference: {fileID: 0}
     - target: {fileID: 781630661673262082, guid: c24a7635b5761984d81cf6c4aac26e0d,
         type: 3}
@@ -690,7 +690,7 @@ PrefabInstance:
     - target: {fileID: 781630663273105846, guid: c24a7635b5761984d81cf6c4aac26e0d,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 208.6
+      value: 321.2
       objectReference: {fileID: 0}
     - target: {fileID: 781630663273105846, guid: c24a7635b5761984d81cf6c4aac26e0d,
         type: 3}
@@ -700,7 +700,7 @@ PrefabInstance:
     - target: {fileID: 781630663273105846, guid: c24a7635b5761984d81cf6c4aac26e0d,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 147.05
+      value: 176.6
       objectReference: {fileID: 0}
     - target: {fileID: 781630663273105846, guid: c24a7635b5761984d81cf6c4aac26e0d,
         type: 3}
@@ -950,12 +950,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'You can use awesome lightsaber.
-
-    Swing it and Slice some boxes!'
+  m_text: "Experience Whack-A-Mole in virtual reality using a vr device.\r\nVR\uAE30\uAE30\uB97C
+    \uC0AC\uC6A9\uD558\uC5EC \uAC00\uC0C1\uD604\uC2E4\uC5D0\uC11C \uB450\uB354\uC9C0
+    \uC7A1\uAE30\uB97C \uCCB4\uD5D8\uD574\uBCF4\uC138\uC694."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a999c0eac7d0fac49abf1330855887f0, type: 2}
+  m_sharedMaterial: {fileID: -8294129814213238915, guid: a999c0eac7d0fac49abf1330855887f0,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1041,10 +1042,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lightsaber VR
+  m_text: "Whack-A-Mole\r\n\uB450\uB354\uC9C0 \uC7A1\uAE30\r\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a999c0eac7d0fac49abf1330855887f0, type: 2}
+  m_sharedMaterial: {fileID: -8294129814213238915, guid: a999c0eac7d0fac49abf1330855887f0,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2720,7 +2722,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3df673acf81a0cc44ad0943c9ff57e9b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 47d544a18ffa54745b5fee4e9012d436, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9959,7 +9961,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'You can use awesome lightsaber.
 
-    Swing it and Slice some boxes!'
+    Swing it and slice everything'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
