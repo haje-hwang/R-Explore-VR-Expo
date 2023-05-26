@@ -6,8 +6,20 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Main Scene/Main Scene.unity
+    guid: 15905591fb63f004db3eb397411b657d
+  - enabled: 1
     path: Assets/Scenes/Lightsaber/LightsaberScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Whac a mole/Scene/W-A-M Intro.unity
+    guid: 922ec492ff53e9840baa448ed5ebd8ff
+  - enabled: 1
+    path: Assets/Scenes/Whac a mole/Scene/W-A-M InGame.unity
+    guid: aac98db494f14454285be6ca231c8ca8
+  - enabled: 1
+    path: Assets/Scenes/Whac a mole/Scene/W-A-M GameOver.unity
+    guid: 24e6caac7fc53cb48b6d770f24b24d3e
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 4688082633f517d4bba1753042e8b2a6,
       type: 2}
