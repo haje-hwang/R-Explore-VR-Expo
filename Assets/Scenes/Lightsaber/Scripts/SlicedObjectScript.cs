@@ -7,7 +7,7 @@ public class SlicedObjectScript : MonoBehaviour
     private void Start()
     {
         Invoke("SetLayer_to_Sliceable", 0.5f);
-        Invoke("DestroySelf", 15f);
+        Invoke("DestroySelf", 10f);
     }
     public void SetLayer_to_Sliceable()
     {

@@ -11,9 +11,11 @@ public class SliceScript : MonoBehaviour
     public VelocityEstimator velocityEstimator;
     public LayerMask sliceableLayer;
     public Material crossSectionMaterial;
-    public float cutForce = 2000;
+    public float cutForce = 300;
     private SaberAudio saberAudio;
     private bool isSaberOn = true;
+    [SerializeField]
+    private MyScoreText myScoreText;
     private void Awake()
     {
         saberAudio = GetComponent<SaberAudio>();
@@ -30,6 +32,11 @@ public class SliceScript : MonoBehaviour
                 saberAudio.SaberSlice();
                 GameObject target = hit.transform.gameObject;
                 Slice(target);
+                if(target.tag.Equals("Vegi"))
+                {
+                    myScoreText.CuttenVegi_count += 1;
+                    myScoreText.SetText();
+                }
             }
         }
     }
