@@ -3989,7 +3989,7 @@ PrefabInstance:
     - target: {fileID: 781630661673262082, guid: c24a7635b5761984d81cf6c4aac26e0d,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 100
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 781630661673262082, guid: c24a7635b5761984d81cf6c4aac26e0d,
         type: 3}
@@ -4054,7 +4054,7 @@ PrefabInstance:
     - target: {fileID: 781630663273105846, guid: c24a7635b5761984d81cf6c4aac26e0d,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 215.69
+      value: 262.09998
       objectReference: {fileID: 0}
     - target: {fileID: 781630663273105846, guid: c24a7635b5761984d81cf6c4aac26e0d,
         type: 3}
@@ -4314,9 +4314,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'You can use awesome lightsaber.
-
-    Swing it and Slice some boxes!'
+  m_text: Find apples in the forest and collect them in a box, at the request of
+    the raven. Walk through the forest, collect open or bottomed apples from trees
+    and collect them in wooden boxes throughout the forest. If you collect the golden
+    apples, the raven will rejoice and give them a bigger reward.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a999c0eac7d0fac49abf1330855887f0, type: 2}
   m_sharedMaterial: {fileID: -8294129814213238915, guid: a999c0eac7d0fac49abf1330855887f0,
@@ -4406,7 +4407,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lightsaber VR
+  m_text: Raven's request
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a999c0eac7d0fac49abf1330855887f0, type: 2}
   m_sharedMaterial: {fileID: -8294129814213238915, guid: a999c0eac7d0fac49abf1330855887f0,
@@ -7021,7 +7022,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3df673acf81a0cc44ad0943c9ff57e9b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 516fac6a3dd383f4299d88c55d29b953, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7536,7 +7537,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3df673acf81a0cc44ad0943c9ff57e9b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9285959dba843bf4c8cb9d8adc24cf47, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
