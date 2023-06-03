@@ -50,8 +50,7 @@ public class VegiThrower : MonoBehaviour
         WaitForSeconds wait = new WaitForSeconds(2f);
         while(isCoroutineRunning)
         {
-            CreateVegi(Random.Range(0,4));
-            ThrowedVegiCount++;
+            CreateVegi(Random.Range(0,5));
             myScoreText.thrownVegi_count = ThrowedVegiCount;
             myScoreText.SetText();
             yield return wait;
@@ -61,6 +60,18 @@ public class VegiThrower : MonoBehaviour
 
     public void CreateVegi(int i)
     {
+        /* [] Vegis;
+        0: cucumber
+        1: garlic
+        2: Onion
+        3: Zucchini
+        4: Bomb
+        */
+        if(i != 4)  //4 is bomb
+        {
+            ThrowedVegiCount++;
+        }
+
         StartPos = transform.position;
         StartPos.x += Random.Range(-3, 3);
 

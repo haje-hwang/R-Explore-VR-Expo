@@ -1292,6 +1292,7 @@ MonoBehaviour:
   - {fileID: 1144544420532368, guid: 09fa2c2c28a9e484e85c93cf23748f9a, type: 3}
   - {fileID: 1280560371742130, guid: 6e3343d6d7497bf4a8e0df516b672ad8, type: 3}
   - {fileID: 1792164124619436, guid: d9c1233c47e77704e867dfabd65d276e, type: 3}
+  - {fileID: 2595720090088871617, guid: 732e12a252da64507987819a344450d8, type: 3}
   jumpAngleInDegree: 45
   ThrowedVegiCount: 0
   myScoreText: {fileID: 1686695545}
@@ -24461,7 +24462,7 @@ PrefabInstance:
     - target: {fileID: 781630663273105846, guid: c24a7635b5761984d81cf6c4aac26e0d,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 262.09998
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 781630663273105846, guid: c24a7635b5761984d81cf6c4aac26e0d,
         type: 3}
@@ -24471,7 +24472,7 @@ PrefabInstance:
     - target: {fileID: 781630663273105846, guid: c24a7635b5761984d81cf6c4aac26e0d,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 147.04999
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 781630663273105846, guid: c24a7635b5761984d81cf6c4aac26e0d,
         type: 3}
