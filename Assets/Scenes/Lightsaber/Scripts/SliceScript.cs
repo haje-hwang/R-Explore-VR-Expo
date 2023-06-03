@@ -37,7 +37,7 @@ public class SliceScript : MonoBehaviour
                     myScoreText.CuttenVegi_count += 1;
                     myScoreText.SetText();
                 }
-                else if(target.tag.Equals("Bomb"))
+                if(target.tag.Equals("Bomb"))
                 {
                     //game end
                 }

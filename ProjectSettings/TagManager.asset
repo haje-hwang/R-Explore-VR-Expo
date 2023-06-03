@@ -8,6 +8,7 @@ TagManager:
   - PlayerHead
   - Vegi
   - Bomb
+  - Saber
   layers:
   - Default
   - TransparentFX
