@@ -2,6 +2,9 @@
  VR/AR게임프로그래밍 / 2023 spring semester Final Project
 VR Mini Game Comprehensive Set
 
+gameplay video
+https://youtu.be/IFEtaRb1fgI
+
 Teammates:
 Nicolas:
 박태경: 
